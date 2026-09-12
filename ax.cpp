@@ -41,7 +41,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    out << "// g++ -O2 -std=c++20 " << problem_name << ".cpp" << "-o " << problem_name;
+    out << "// g++ -O2 -std=c++20 " << problem_name << ".cpp" << " -o " << problem_name;
     out << "#include <bits/stdc++.h>\n";
     out << "using namespace std;\n\n";
     out << "void solve() {\n";
