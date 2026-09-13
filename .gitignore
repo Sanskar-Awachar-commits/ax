@@ -1,1 +1,34 @@
+# Compiled binaries
+ax
+ax.exe
 *.exe
+*.out
+*.app
+
+# Object files & archives
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Release & build artifacts
+release_assets/
+build/
+dist/
+
+# Editor and IDE directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Agent skills & local assistant configuration
+.agents/
+.gemini/
+
+# Local configuration and environment
+.env
